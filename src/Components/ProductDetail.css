@@ -1,0 +1,56 @@
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 5px;
+}
+
+.product-detail-img {
+    
+    align-self: center;
+    border-radius: 10px;
+    width: 85%;
+}
+
+.heading{
+    color: lightcoral;
+    font-size: 4rem;
+    align-self: center;
+}
+
+.details{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin-left: 20px; */
+    color: lightcoral;
+    margin: 10px;
+}
+
+.product-desc {
+    color: gray;
+    font-size: 1.2rem;
+    text-align: justify; /* Align the text to the left */
+    margin: 0; /* Remove extra margin */
+    margin-left: 120px; /* Add spacing below details */
+    width: 85%; /* Match the width of the image and details */
+    line-height: 1.8;
+}
+
+.tour-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.tour-button:hover {
+    background-color: white;
+    color: lightcoral;
+}
